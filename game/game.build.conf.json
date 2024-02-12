@@ -1,7 +1,7 @@
 {
   "package": {
-    "productName": "My QspiderGame",
-    "version": "1.0.0"
+    "productName": "Royal Hunt Deluxe",
+    "version": "1.2.1"
   },
   "build": {
     "distDir": "../dist/apps/player-standalone",
@@ -20,20 +20,15 @@
       "longDescription": ""
     },
     "updater": {
-      "active": true,
-      "endpoints": [
-        ""
-      ],
-      "dialog": true,
-      "pubkey": ""
+      "active": false
     },
     "windows": [
       {
-        "title": "My Game",
+        "title": "Royal Hunt Deluxe",
         "width": 1024,
         "height": 768,
         "center": true,
-        "resizable": true,
+        "resizable": false,
         "fullscreen": false,
         "visible": false
       }
