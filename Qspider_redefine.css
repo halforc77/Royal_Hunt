@@ -1,0 +1,22 @@
+qsp-game-hotkeys {
+  display: none !important;
+}
+
+/*
+qsp-game-root, #portal-container {
+    --font-size: 18px !important;
+}
+*/
+[data-qsp="player"]{
+    --font-size: 18px;
+}
+
+[data-qsp="input"]{
+    font-size: 18px;
+    --font-size: 18px;
+}
+
+[data-qsp="msg"]{
+    font-size: 18px;
+    --font-size: 18px;
+}
